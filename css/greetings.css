@@ -1,0 +1,46 @@
+#greeting {
+    margin-top: 210px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+#login-form {
+    margin-top: 200px;
+    padding: 30px 120px 50px 120px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#login-form input {
+    width: 530px;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+
+
+#login-form button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(92, 182, 2);
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    display: block;
+    font-size: 16px;
+}
+
+
+#login-form button:hover {
+    background-color: rgb(106, 212, 0);
+}
+
+.form-info {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}

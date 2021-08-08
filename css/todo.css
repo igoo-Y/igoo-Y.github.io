@@ -1,0 +1,61 @@
+ul {
+    width: 80%;
+}
+
+li {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(224, 224, 224);
+}
+
+li span {
+    padding-left: 10px;
+}
+
+li button {
+    cursor: pointer;
+    background-color:transparent;
+    border: none;
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px 0 15px;
+}
+
+li button:hover {
+    color: chartreuse;
+}
+
+.todo {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 5px 15px 20px 15px;
+    width: 450px;
+}
+
+#todo-form {
+    padding: 15px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#todo-form button {
+    cursor: pointer;
+    background-color:transparent;
+    border: none;
+    color:chartreuse;
+    padding: 0 10px 0 10px;
+}
+
+#todo-form button:hover {
+    color: white;
+}
+
+#todo-input {
+    width: 80%;
+}

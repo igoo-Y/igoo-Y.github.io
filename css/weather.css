@@ -1,0 +1,13 @@
+#weather {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 10px;
+    color: rgb(216, 216, 216);
+}
