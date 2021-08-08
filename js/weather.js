@@ -14,7 +14,7 @@ function onGeoSuccess(position){
 };
 
 function onGeoError(){
-    alert("Can't find you. No weather for you.");
+    alert("위치정보 제공에 동의하면 현재 날씨를 확인할 수 있습니다.");
 };
 
 navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
